@@ -5,6 +5,7 @@
 
 label {
     font-weight : bold;
+    display : block;
 }
 
 input[type=text], input[type=password], textarea {
