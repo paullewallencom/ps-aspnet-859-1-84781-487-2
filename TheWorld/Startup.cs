@@ -28,8 +28,10 @@ namespace TheWorld
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseStaticFiles();
             app.UseDefaultFiles();
+
+            app.UseStaticFiles();
+            
 
         }
     }
