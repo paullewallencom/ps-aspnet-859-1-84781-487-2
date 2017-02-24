@@ -20,6 +20,6 @@ input[type=text], input[type=password], textarea {
     background-color : #222;
 }
 
-#sidebar img {
+.headshot {
     max-width : 50px;
 }
