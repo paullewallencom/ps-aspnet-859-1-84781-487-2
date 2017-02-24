@@ -7,11 +7,6 @@ label {
     font-weight : bold;
 }
 
-input {
+input[type=text] {
     width : 150px;
-}
-
-input[type=submit] {
-    width : auto;
-    width : 500px;
 }
