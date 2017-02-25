@@ -28,7 +28,7 @@ namespace TheWorld
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseDefaultFiles();
+            //app.UseDefaultFiles();
 
             app.UseStaticFiles();
             
