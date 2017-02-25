@@ -1,15 +1,16 @@
-﻿@{
+﻿@model TheWorld.ViewModels.ContactViewModel
+@{
     ViewBag.Title = "Contact Page";
 }
 
 <h2>Contact Me</h2>
 <form>
-    <label>Name</label>
-    <input />
-    <label>Email</label>
-    <input type="email" />
-    <label>Message</label>
-    <textarea cols="40" rows="4"></textarea>
+    <label asp-for="Name">Name</label>
+    <input asp-for="Name"/>
+    <label asp-for="Email">Email</label>
+    <input asp-for="Email" type="email" />
+    <label asp-for="Message">Message</label>
+    <textarea asp-for="Message" cols="40" rows="4"></textarea>
     <div>
         <input type="submit" value="Send Message" />
     </div>
