@@ -23,3 +23,15 @@ input[type=text], input[type=password], textarea {
 .headshot {
     max-width : 50px;
 }
+
+.menu {
+    font-size : 12px;
+}
+
+  .menu li {
+      list-style-type : none;
+  }
+
+  .menu li.active {
+      font-weight : bold;
+  }
