@@ -1,17 +1,26 @@
 ﻿// site.js
 
 (function (/*inputParam*/) {
-    var ele = document.getElementById("username");
 
-    ele.innerHTML = "Paul Lewallen";
+    var ele = $("#username");
 
-    var main = document.getElementById("main");
+    ele.text("Paul Lewallen");
 
-    main.onmouseenter = function () {
-        main.style.backgroundColor = "#888";
-    };
+    var main = $("#main");
 
-    main.onmouseleave = function () {
-        main.style.backgroundColor = "";
-    }
+    main.on("mouseenter", function () {
+        main.style = "background-color: #888;";
+    });
+
+    main.on("mouseleave", function () {
+        main.style = "";
+    });
+
+    var menuItems = $("ul.menu li a");
+
+    menuItems.on("click", function () {
+        var me = $(this);
+        alert(me.text());
+    });
+
 })(/*"hello"*/);
