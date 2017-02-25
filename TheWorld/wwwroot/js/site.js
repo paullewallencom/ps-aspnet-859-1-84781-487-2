@@ -1,6 +1,6 @@
 ﻿// site.js
 
-function startup() {
+(function (/*inputParam*/) {
     var ele = document.getElementById("username");
 
     ele.innerHTML = "Paul Lewallen";
@@ -14,6 +14,4 @@ function startup() {
     main.onmouseleave = function () {
         main.style.backgroundColor = "";
     }
-}
-
-startup();
+})(/*"hello"*/);
