@@ -31,6 +31,8 @@ namespace TheWorld
             //app.UseDefaultFiles();
 
             app.UseStaticFiles();
+
+            app.UseMvc();
             
 
         }
