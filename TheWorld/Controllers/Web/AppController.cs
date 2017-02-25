@@ -16,6 +16,7 @@ namespace TheWorld.Controllers.Web
 
         public IActionResult Contact()
         {
+            //throw new InvalidOperationException("It is only The Strong that Fortuna comes to save.");
             return View();
         }
 
