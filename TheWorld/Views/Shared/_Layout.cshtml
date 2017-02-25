@@ -1,13 +1,40 @@
 ﻿<!DOCTYPE html>
-
 <html>
+
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>The World - @ViewBag.Title</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="css/site.css" />
+
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <div id="sidebar">
+        <img src="img/git.gif" alt="headshot" class="headshot" />
+        <span id="username">Sam Hastings</span>
+        <ul class="menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </div>
+    <div id="wrapper">
+        <div>
+            <div id="main">
+                <div>
+                    <button id="sidebarToggle">Toggle Menu</button>
+                </div>
+                @RenderBody()
+
+            </div>
+            <div id="footer">
+                &copy; 2015 The World Ltd.
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+
 </body>
 </html>
