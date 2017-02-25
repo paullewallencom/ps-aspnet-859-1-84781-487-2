@@ -151,6 +151,7 @@ input[type=text], input[type=password], textarea {
 
   #sidebar.hide-sidebar {
       left: -250px;
+      transition: left ease 0.25s;
   }
 
 #wrapper {
@@ -159,4 +160,5 @@ input[type=text], input[type=password], textarea {
 
   #wrapper.hide-sidebar {
       margin-left: 0;
+      transition: margin-left ease 0.25s;
   }
