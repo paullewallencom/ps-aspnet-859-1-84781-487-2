@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TheWorld.ViewModels;
 
 namespace TheWorld.Controllers.Web
 {
@@ -17,6 +18,12 @@ namespace TheWorld.Controllers.Web
         public IActionResult Contact()
         {
             //throw new InvalidOperationException("It is only The Strong that Fortuna comes to save.");
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Contact(ContactViewModel model)
+        {
             return View();
         }
 
