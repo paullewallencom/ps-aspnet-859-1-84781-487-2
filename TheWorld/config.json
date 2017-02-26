@@ -1,3 +1,5 @@
 {
-	
+  "MailSettings": {
+    "ToAddress": "paul@aol.com"
+  }
 }
