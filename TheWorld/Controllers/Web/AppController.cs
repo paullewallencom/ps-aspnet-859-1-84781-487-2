@@ -25,7 +25,9 @@ namespace TheWorld.Controllers.Web
         }
         public IActionResult Index()
         {
-            return View();
+            var data = _context.Trips.ToList();
+
+            return View(data);
         }
 
         public IActionResult Contact()
