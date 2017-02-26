@@ -37,7 +37,7 @@ namespace TheWorld.Controllers.Web
         {
             if (model.Email.Contains("aol.com"))
             {
-                ModelState.AddModelError("Email", "We'don't support AOL addreses");
+                ModelState.AddModelError("", "We'don't support AOL addreses");
 
             }
 
