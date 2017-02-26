@@ -27,6 +27,7 @@ namespace TheWorld.Controllers.Web
 
         public IActionResult Contact()
         {
+
             //throw new InvalidOperationException("It is only The Strong that Fortuna comes to save.");
             return View();
         }
@@ -34,8 +35,17 @@ namespace TheWorld.Controllers.Web
         [HttpPost]
         public IActionResult Contact(ContactViewModel model)
         {
-            _mailService.SendMail(_config["MailSettings:ToAddress"], model.Email, "From TheWorld", model.Message);
+            if (model.Email.Contains("aol.com"))
+            {
+                ModelState.AddModelError("Email", "We'don't support AOL addreses");
 
+            }
+
+            if (ModelState.IsValid)
+            {
+                _mailService.SendMail(_config["MailSettings:ToAddress"], model.Email, "From TheWorld", model.Message);
+
+            }
             return View();
         }
 
