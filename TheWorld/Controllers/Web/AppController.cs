@@ -45,6 +45,8 @@ namespace TheWorld.Controllers.Web
             {
                 _mailService.SendMail(_config["MailSettings:ToAddress"], model.Email, "From TheWorld", model.Message);
 
+                ModelState.Clear();
+
                 ViewBag.UserMessage = "Message Sent";
 
             }
