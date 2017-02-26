@@ -24,7 +24,8 @@
           "Microsoft.AspNetCore.StaticFiles": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
           "Microsoft.AspNetCore.Mvc.TagHelpers": "1.0.0",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0"
+          "Microsoft.Extensions.Configuration.Json": "1.0.0",
+          "Microsoft.Extensions.PlatformAbstractions": "1.0.0"
         },
         "compile": {
           "TheWorld.dll": {}
@@ -2526,7 +2527,8 @@
           "Microsoft.AspNetCore.StaticFiles": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
           "Microsoft.AspNetCore.Mvc.TagHelpers": "1.0.0",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0"
+          "Microsoft.Extensions.Configuration.Json": "1.0.0",
+          "Microsoft.Extensions.PlatformAbstractions": "1.0.0"
         },
         "runtime": {
           "TheWorld.dll": {}

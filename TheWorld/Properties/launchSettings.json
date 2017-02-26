@@ -12,8 +12,8 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "MailSettings_ToAddress": "taco@aol.com"
+        "MailSettings__ToAddress": "taco@aol.com",
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "TheWorld": {
