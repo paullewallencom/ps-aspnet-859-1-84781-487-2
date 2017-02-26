@@ -57,6 +57,8 @@
 --reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.DotNet.InternalAbstractions\1.0.0\lib\netstandard1.3\Microsoft.DotNet.InternalAbstractions.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.EntityFrameworkCore\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
+--reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.EntityFrameworkCore.Relational\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.dll
+--reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.EntityFrameworkCore.SqlServer\1.0.1\lib\netstandard1.3\Microsoft.EntityFrameworkCore.SqlServer.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\Microsoft.Extensions.Configuration\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
@@ -99,6 +101,8 @@
 --reference:C:\Users\PabloPicante\.nuget\packages\System.ComponentModel.Primitives\4.1.0\ref\netstandard1.0\System.ComponentModel.Primitives.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\System.ComponentModel.TypeConverter\4.1.0\ref\netstandard1.5\System.ComponentModel.TypeConverter.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\System.Console\4.0.0\ref\netstandard1.3\System.Console.dll
+--reference:C:\Users\PabloPicante\.nuget\packages\System.Data.Common\4.1.0\ref\netstandard1.2\System.Data.Common.dll
+--reference:C:\Users\PabloPicante\.nuget\packages\System.Data.SqlClient\4.1.0\ref\netstandard1.3\System.Data.SqlClient.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\System.Diagnostics.Contracts\4.0.1\ref\netstandard1.0\System.Diagnostics.Contracts.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\System.Diagnostics.Debug\4.0.11\ref\netstandard1.3\System.Diagnostics.Debug.dll
 --reference:C:\Users\PabloPicante\.nuget\packages\System.Diagnostics.DiagnosticSource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll

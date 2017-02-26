@@ -12,7 +12,8 @@ namespace TheWorld.Models
     {
         private IConfigurationRoot _config;
 
-        public WorldContext(IConfigurationRoot config)
+        public WorldContext(IConfigurationRoot config, DbContextOptions options) 
+            : base(options)
         {
             _config = config;
         }
@@ -24,7 +25,7 @@ namespace TheWorld.Models
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer(_config[""]);
+            optionsBuilder.UseSqlServer(_config["ConnectionStrings:WorldContextConnection"]);
         }
     }
 }
