@@ -17,9 +17,13 @@ namespace TheWorld
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+#if DEBUG
             //services.AddTransient<IMailService, DebugMailService>();
             services.AddScoped<IMailService, DebugMailService>();
             //services.AddSingleton<IMailService, DebugMailService>();
+#else
+            // Implement a real Mail Service
+#endif
 
             services.AddMvc();
         }
