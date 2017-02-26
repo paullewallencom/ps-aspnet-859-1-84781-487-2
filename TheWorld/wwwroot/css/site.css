@@ -90,20 +90,20 @@ input[type=text], input[type=password], textarea {
       margin-left : 0 0 0 250px;
   }*/
 
-body {
+/*body {
     font-family: sans-serif;
     font-size: 14px;
     margin: 0px;
-}
+}*/
 
-label {
+/*label {
     font-weight: bold;
     display: block;
-}
+}*/
 
-input[type=text], input[type=password], textarea {
+/*input[type=text], input[type=password], textarea {
     width: 150px;
-}
+}*/
 
 #main {
     background-color: #eee;
